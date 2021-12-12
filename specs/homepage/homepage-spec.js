@@ -5,7 +5,7 @@ describe('Homepage', () => {
     })
 
     it('should 2', () => {
-        throw new Error('Error test test test')
+        // throw new Error('Error test test test')
     })
 
     it('should 2', () => {
