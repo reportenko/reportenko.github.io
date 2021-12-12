@@ -31,8 +31,6 @@ jobs:
       - name : Run wdio test scripts
         run : |
           npm test
-          npx allure generate
-          ls
 
       - name: Get allure history
         uses: actions/checkout@v2
