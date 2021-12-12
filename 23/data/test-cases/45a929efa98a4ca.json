@@ -1,0 +1,78 @@
+{
+  "uid" : "45a929efa98a4ca",
+  "name" : "should 2",
+  "fullName" : "Homepage dup.should 2",
+  "historyId" : "9513b61ba92acfbb7b8817c6619b53fb",
+  "time" : {
+    "start" : 1639334594894,
+    "stop" : 1639334594894,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Homepage dup"
+  }, {
+    "name" : "testClass",
+    "value" : "Homepage dup"
+  }, {
+    "name" : "testMethod",
+    "value" : "should 2"
+  }, {
+    "name" : "package",
+    "value" : "Homepage dup"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-96.0.4664.45"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "dd4c98f579248c9e",
+        "reportUrl" : "https://reportenko.github.io/reportenko.github.io/21//#testresult/dd4c98f579248c9e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639333497188,
+          "stop" : 1639333497188,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "45a929efa98a4ca.json",
+  "parameterValues" : [ "chrome-96.0.4664.45" ]
+}
