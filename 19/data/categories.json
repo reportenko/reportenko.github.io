@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Error test test test",
+      "children" : [ {
+        "name" : "should 2",
+        "uid" : "7b2c8c82cb4db61b",
+        "parentUid" : "07f5c6f41269f5c1ac80ea70614ad19e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1639284798641,
+          "stop" : 1639284798651,
+          "duration" : 10
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-96.0.4664.45" ]
+      } ],
+      "uid" : "07f5c6f41269f5c1ac80ea70614ad19e"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}

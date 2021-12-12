@@ -1,0 +1,84 @@
+{
+  "uid" : "7b2c8c82cb4db61b",
+  "name" : "should 2",
+  "fullName" : "Homepage.should 2",
+  "historyId" : "a36117eade9de1983c960c06f6eddcec",
+  "time" : {
+    "start" : 1639284798641,
+    "stop" : 1639284798651,
+    "duration" : 10
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Error test test test",
+  "statusTrace" : "Error: Error test test test\n                    at Context.<anonymous> (/home/runner/work/reportenko.github.io/reportenko.github.io/specs/homepage/homepage-spec.js:8:15)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Homepage"
+  }, {
+    "name" : "testClass",
+    "value" : "Homepage"
+  }, {
+    "name" : "testMethod",
+    "value" : "should 2"
+  }, {
+    "name" : "package",
+    "value" : "Homepage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-96.0.4664.45"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "fe1056f96a05152a",
+        "reportUrl" : "https://reportenko.github.io/reportenko.github.io/18//#testresult/fe1056f96a05152a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639284604313,
+          "stop" : 1639284604314,
+          "duration" : 1
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "7b2c8c82cb4db61b.json",
+  "parameterValues" : [ "chrome-96.0.4664.45" ]
+}
