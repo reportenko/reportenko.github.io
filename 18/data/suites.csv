@@ -1,5 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Sun Dec 12 04:50:04 GMT 2021","Sun Dec 12 04:50:04 GMT 2021","0","","Homepage dup","","Homepage dup","should 2","should 2",""
-"passed","Sun Dec 12 04:50:04 GMT 2021","Sun Dec 12 04:50:04 GMT 2021","1","","Homepage","","Homepage","should 2","should 2",""
-"passed","Sun Dec 12 04:50:04 GMT 2021","Sun Dec 12 04:50:04 GMT 2021","1","","Homepage dup","","Homepage dup","should 1","should 1",""
-"passed","Sun Dec 12 04:50:04 GMT 2021","Sun Dec 12 04:50:04 GMT 2021","1","","Homepage","","Homepage","should 1","should 1",""
