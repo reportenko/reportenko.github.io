@@ -1,0 +1,87 @@
+{
+  "uid" : "e6ae69d97c128fa1",
+  "name" : "should 2",
+  "fullName" : "Homepage.should 2",
+  "historyId" : "a36117eade9de1983c960c06f6eddcec",
+  "time" : {
+    "start" : 1639335415322,
+    "stop" : 1639335415322,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Homepage"
+  }, {
+    "name" : "testClass",
+    "value" : "Homepage"
+  }, {
+    "name" : "testMethod",
+    "value" : "should 2"
+  }, {
+    "name" : "package",
+    "value" : "Homepage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-96.0.4664.45"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "566cc51c5d70d0d5",
+        "reportUrl" : "https://reportenko.github.io/reportenko.github.io/26//#testresult/566cc51c5d70d0d5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639335263184,
+          "stop" : 1639335263185,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "4783042f8efcc384",
+        "reportUrl" : "https://reportenko.github.io/25//#testresult/4783042f8efcc384",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639335025035,
+          "stop" : 1639335025036,
+          "duration" : 1
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "e6ae69d97c128fa1.json",
+  "parameterValues" : [ "chrome-96.0.4664.45" ]
+}
