@@ -1,0 +1,88 @@
+name: Sergii
+
+on:
+  pull_request:
+    branches: [ master ]
+
+env:
+  API_TAG: dummy_api_tag
+  CLIENT_TAG: dummy_client_tag
+  INSTANCE_NAME: selenium3
+  STACK_NAME: selenaudit
+  RUN_TYPE: regression
+  S3_BUCKETNAME: selenaudit
+  AWS_REGION: us-east-2
+  # Dynamic vars like branchstamp are specified in setup job
+
+jobs:
+  setup:
+    runs-on: ubuntu-latest
+    # Map a step output to a job output
+    outputs:
+      branchstamp: ${{ steps.step1.outputs.test }}
+    steps:
+      - id: step1
+        run: |
+          echo "::set-output name=test::${{github.head_ref}}_$(date +'%s')"
+
+    
+  # build:
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     - uses: actions/checkout@v2
+  #     - uses: actions/setup-node@v2
+  #       with:
+  #         node-version: ${{ env.NODE_VERSION }}
+  #         cache: yarn
+  #     - name: Install dependencies
+  #       run: yarn --frozen-lockfile
+  #     - name: Build
+  #       run: yarn build
+
+  # test:
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     - name: Setup env vars
+  #       if: always()
+  #       run: |
+  #         echo "time=$(date +%s)" >> $GITHUB_ENV
+
+  #     - uses: actions/checkout@v2
+  #     - name: Set up Node.js
+  #       uses: actions/setup-node@v1
+  #       with:
+  #           node-version: '14'
+
+  #     - name: Install dependencies
+  #       if: always()
+  #       run: npm i
+
+  #     - name: Spin up infrastructure
+  #       if: always()
+  #       run: |
+  #         echo "${{ env.time }}"
+
+  #     - name: Run tests
+  #       if: always()
+  #       run: |
+  #         echo ${{ env.STACK_NAME }}
+  #         echo "${{ env.STACK_NAME }}"
+  #         echo branchstamp - "${{needs.setup.outputs.branchstamp}}"
+
+  aws:
+    needs: setup
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: aws-actions/configure-aws-credentials@v1
+        with:
+            aws-access-key-id: ${{ secrets.QE_AWS_ACCESS_KEY_ID }}
+            aws-secret-access-key: ${{ secrets.QE_AWS_SECRET_ACCESS_KEY }}
+            aws-region: us-east-2
+      - name: run log
+        if: always()
+        run: |
+          ls
+          aws cloudformation create-stack --stack-name "${{ env.STACK_NAME }}" --template-body file://cloudformation.yaml --parameters ParameterKey=keyName,ParameterValue=qaKeys ParameterKey=branchName,ParameterValue="${{needs.setup.outputs.branchstamp}}" ParameterKey=APITAG,ParameterValue=$APITAG ParameterKey=INSTANCENAME,ParameterValue=$INSTANCE_NAME ParameterKey=RUNTYPE,ParameterValue=$RUN_TYPE
+
+
