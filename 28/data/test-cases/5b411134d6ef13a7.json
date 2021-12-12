@@ -1,0 +1,96 @@
+{
+  "uid" : "5b411134d6ef13a7",
+  "name" : "should 1",
+  "fullName" : "Homepage dup.should 1",
+  "historyId" : "1898e4fcfce2f532b69f6390c1b27dd1",
+  "time" : {
+    "start" : 1639335493779,
+    "stop" : 1639335493781,
+    "duration" : 2
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Homepage dup"
+  }, {
+    "name" : "testClass",
+    "value" : "Homepage dup"
+  }, {
+    "name" : "testMethod",
+    "value" : "should 1"
+  }, {
+    "name" : "package",
+    "value" : "Homepage dup"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-96.0.4664.45"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "b10a90d45cce2b36",
+        "reportUrl" : "https://reportenko.github.io/27//#testresult/b10a90d45cce2b36",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639335415311,
+          "stop" : 1639335415313,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "6f2124df90fc2b1f",
+        "reportUrl" : "https://reportenko.github.io/reportenko.github.io/26//#testresult/6f2124df90fc2b1f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639335263196,
+          "stop" : 1639335263198,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "a2cc000b237b03cc",
+        "reportUrl" : "https://reportenko.github.io/25//#testresult/a2cc000b237b03cc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639335025018,
+          "stop" : 1639335025020,
+          "duration" : 2
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "5b411134d6ef13a7.json",
+  "parameterValues" : [ "chrome-96.0.4664.45" ]
+}
