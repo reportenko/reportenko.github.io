@@ -1,0 +1,61 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "Login",
+    "children" : [ {
+      "name" : "should be able to login",
+      "uid" : "603221e937f09689",
+      "parentUid" : "1a85855463aca3ea10b8fe0fcb3372b8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639939947048,
+        "stop" : 1639939947049,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-96.0.4664.110" ]
+    }, {
+      "name" : "should be able to logout",
+      "uid" : "e6c8934e4a33f16",
+      "parentUid" : "1a85855463aca3ea10b8fe0fcb3372b8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639939947049,
+        "stop" : 1639939947050,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-96.0.4664.110" ]
+    }, {
+      "name" : "should not be able to login with no password",
+      "uid" : "c28ed10cf61f123f",
+      "parentUid" : "1a85855463aca3ea10b8fe0fcb3372b8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639939947050,
+        "stop" : 1639939947050,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-96.0.4664.110" ]
+    }, {
+      "name" : "should not be able to login with incorrect password",
+      "uid" : "980eb728af39d276",
+      "parentUid" : "1a85855463aca3ea10b8fe0fcb3372b8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639939947050,
+        "stop" : 1639939947050,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-96.0.4664.110" ]
+    } ],
+    "uid" : "1a85855463aca3ea10b8fe0fcb3372b8"
+  } ],
+  "name" : "suites"
+}

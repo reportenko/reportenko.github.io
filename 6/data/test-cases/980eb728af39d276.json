@@ -1,0 +1,78 @@
+{
+  "uid" : "980eb728af39d276",
+  "name" : "should not be able to login with incorrect password",
+  "fullName" : "Login.should not be able to login with incorrect password",
+  "historyId" : "4e6d11d834d1f8f22225a68a6601fcc7",
+  "time" : {
+    "start" : 1639939947050,
+    "stop" : 1639939947050,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login"
+  }, {
+    "name" : "testClass",
+    "value" : "Login"
+  }, {
+    "name" : "testMethod",
+    "value" : "should not be able to login with incorrect password"
+  }, {
+    "name" : "package",
+    "value" : "Login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-96.0.4664.110"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "bf50dd4de45d2a2f",
+        "reportUrl" : "https://reportenko.github.io/4//#testresult/bf50dd4de45d2a2f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639939633472,
+          "stop" : 1639939633472,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "980eb728af39d276.json",
+  "parameterValues" : [ "chrome-96.0.4664.110" ]
+}
