@@ -1,0 +1,96 @@
+{
+  "uid" : "135ac15fd2622340",
+  "name" : "should not be able to login with incorrect password",
+  "fullName" : "Login.should not be able to login with incorrect password",
+  "historyId" : "4e6d11d834d1f8f22225a68a6601fcc7",
+  "time" : {
+    "start" : 1639940696596,
+    "stop" : 1639940696597,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login"
+  }, {
+    "name" : "testClass",
+    "value" : "Login"
+  }, {
+    "name" : "testMethod",
+    "value" : "should not be able to login with incorrect password"
+  }, {
+    "name" : "package",
+    "value" : "Login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-96.0.4664.110"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "fa300f5c26431f10",
+        "reportUrl" : "https://reportenko.github.io/7//#testresult/fa300f5c26431f10",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639940421428,
+          "stop" : 1639940421428,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "980eb728af39d276",
+        "reportUrl" : "https://reportenko.github.io/6//#testresult/980eb728af39d276",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639939947050,
+          "stop" : 1639939947050,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "bf50dd4de45d2a2f",
+        "reportUrl" : "https://reportenko.github.io/4//#testresult/bf50dd4de45d2a2f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639939633472,
+          "stop" : 1639939633472,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "135ac15fd2622340.json",
+  "parameterValues" : [ "chrome-96.0.4664.110" ]
+}
