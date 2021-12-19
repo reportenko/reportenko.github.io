@@ -5,20 +5,7 @@ on:
     branches: [ master ]
 
 jobs:
-  pull:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout the code
-        uses: actions/checkout@v2
-
-  build:
-    needs: pull
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout the code
-        uses: actions/checkout@v2
-
-  test:
+  integration_tests:
     needs: build
     runs-on: ubuntu-latest
     steps:
@@ -60,10 +47,3 @@ jobs:
           PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PUBLISH_BRANCH: gh-pages
           PUBLISH_DIR: allure-history
-
-  post_result:
-    needs: test
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout the code
-        uses: actions/checkout@v2

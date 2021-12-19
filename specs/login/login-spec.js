@@ -1,12 +1,21 @@
-const Homepage = require('../../page_object/homepage/homepage-page');
-
 describe('Login', () => {
     it('should be able to login', () => {
+        // Test code should be here
     })
 
-    it('should 2', () => {
+    it('should be able to logout', () => {
+        // Test code should be here
     })
 
-    it('should 2', () => {
+    it('should not be able to login with incorrect password', () => {
+        // Test code should be here
+    })
+
+    it('should not be able to login with no password', () => {
+        // Test code should be here
+    })
+
+    it('should be able to reset password', () => {
+        // Test code should be here
     })
 })
