@@ -1,9 +1,6 @@
 name: allure-report
 
 on:
-  release:
-    types:
-      - created
   push:
     branches-ignore:
       - '!master'
@@ -18,12 +15,14 @@ jobs:
         uses: actions/checkout@v2
 
   build:
+    needs: pull
     runs-on: ubuntu-latest
     steps:
       - name: Checkout the code
         uses: actions/checkout@v2
 
   test:
+    needs: build
     runs-on: ubuntu-latest
     steps:
       - name: Checkout the code
@@ -75,6 +74,7 @@ jobs:
       #       target_url: reportenko.github.io/github-allure-history/${{ github.run_number }}
 
   post_result:
+    needs: test
     runs-on: ubuntu-latest
     steps:
       - name: Checkout the code
