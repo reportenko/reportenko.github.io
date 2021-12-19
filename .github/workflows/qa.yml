@@ -1,14 +1,9 @@
 name: qa
 
 on:
-  workflow_dispatch:
-    inputs:
-      logLevel:
-        description: 'Log level'     
-        required: true
-        default: 'warning'
-      tags:
-        description: 'Test scenario tags'
+  push:
+    branches-ignore:
+      - '!master'
   pull_request:
     branches: [ master ]
 
