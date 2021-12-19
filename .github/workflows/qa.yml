@@ -9,7 +9,6 @@ on:
 
 jobs:
   integration_tests:
-    needs: build
     runs-on: ubuntu-latest
     steps:
       - name: Checkout the code
