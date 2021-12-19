@@ -1,7 +1,7 @@
 const Homepage = require('../../page_object/homepage/homepage-page');
 
-describe('Homepage dup', () => {
-    it('should 1', () => {
+describe('Login', () => {
+    it('should be able to login', () => {
     })
 
     it('should 2', () => {
