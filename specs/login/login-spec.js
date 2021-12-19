@@ -14,8 +14,4 @@ describe('Login', () => {
     it('should not be able to login with no password', () => {
         // Test code should be here
     })
-
-    it('should be able to reset password', () => {
-        // Test code should be here
-    })
 })
