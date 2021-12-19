@@ -24,6 +24,6 @@ describe('Login', () => {
     })
 
     it('should not be able to login with incorrect username', () => {
-        // Test code should be here 
+        throw new Error('Oops, something went wrong')
     })
 })
