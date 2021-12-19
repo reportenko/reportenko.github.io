@@ -1,0 +1,21 @@
+[ {
+  "uid" : "7a293c45b8469582",
+  "name" : "should 2",
+  "time" : {
+    "start" : 1639937543716,
+    "stop" : 1639937543716,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5f74d27cf0a7e42b",
+  "name" : "should be able to login",
+  "time" : {
+    "start" : 1639937543714,
+    "stop" : 1639937543716,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
