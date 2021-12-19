@@ -1,0 +1,71 @@
+[ {
+  "uid" : "31136dbf926947b",
+  "name" : "should be able to logout",
+  "time" : {
+    "start" : 1639942216615,
+    "stop" : 1639942216615,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8021dd665dba0d23",
+  "name" : "should not be able to login after account removal",
+  "time" : {
+    "start" : 1639942216616,
+    "stop" : 1639942216616,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "db5189fd947fcb4b",
+  "name" : "should be able to reset password",
+  "time" : {
+    "start" : 1639942216616,
+    "stop" : 1639942216616,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d262ce6c1b8dc91e",
+  "name" : "should be able to login",
+  "time" : {
+    "start" : 1639942216613,
+    "stop" : 1639942216615,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "feb83fc4f07be9a0",
+  "name" : "should not be able to login with incorrect username",
+  "time" : {
+    "start" : 1639942216616,
+    "stop" : 1639942216616,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2d89404f88f10ea1",
+  "name" : "should not be able to login with incorrect password",
+  "time" : {
+    "start" : 1639942216615,
+    "stop" : 1639942216615,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1cd296bcf701b262",
+  "name" : "should not be able to login with no password",
+  "time" : {
+    "start" : 1639942216615,
+    "stop" : 1639942216616,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

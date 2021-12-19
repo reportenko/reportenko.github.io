@@ -1,0 +1,78 @@
+{
+  "uid" : "8021dd665dba0d23",
+  "name" : "should not be able to login after account removal",
+  "fullName" : "Login.should not be able to login after account removal",
+  "historyId" : "c277b708fec03591db3c27ad956c74da",
+  "time" : {
+    "start" : 1639942216616,
+    "stop" : 1639942216616,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login"
+  }, {
+    "name" : "testClass",
+    "value" : "Login"
+  }, {
+    "name" : "testMethod",
+    "value" : "should not be able to login after account removal"
+  }, {
+    "name" : "package",
+    "value" : "Login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-96.0.4664.110"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "70167b7516be58dd",
+        "reportUrl" : "https://reportenko.github.io/9//#testresult/70167b7516be58dd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639941038211,
+          "stop" : 1639941038211,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "8021dd665dba0d23.json",
+  "parameterValues" : [ "chrome-96.0.4664.110" ]
+}

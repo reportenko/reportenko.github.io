@@ -1,0 +1,177 @@
+{
+  "uid" : "d262ce6c1b8dc91e",
+  "name" : "should be able to login",
+  "fullName" : "Login.should be able to login",
+  "historyId" : "45d57567276cfaa737de9a30a32bd8ea",
+  "time" : {
+    "start" : 1639942216613,
+    "stop" : 1639942216615,
+    "duration" : 2
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login"
+  }, {
+    "name" : "testClass",
+    "value" : "Login"
+  }, {
+    "name" : "testMethod",
+    "value" : "should be able to login"
+  }, {
+    "name" : "package",
+    "value" : "Login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-96.0.4664.110"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 13,
+        "unknown" : 0,
+        "total" : 13
+      },
+      "items" : [ {
+        "uid" : "66cb0b2b8048d264",
+        "reportUrl" : "https://reportenko.github.io/9//#testresult/66cb0b2b8048d264",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639941038208,
+          "stop" : 1639941038210,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "77f31a7c9d72878",
+        "reportUrl" : "https://reportenko.github.io/8//#testresult/77f31a7c9d72878",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639940696594,
+          "stop" : 1639940696596,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "2b6190e6840480a2",
+        "reportUrl" : "https://reportenko.github.io/7//#testresult/2b6190e6840480a2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639940421425,
+          "stop" : 1639940421427,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "603221e937f09689",
+        "reportUrl" : "https://reportenko.github.io/6//#testresult/603221e937f09689",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639939947048,
+          "stop" : 1639939947049,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "6f53a8caace3b8e8",
+        "reportUrl" : "https://reportenko.github.io/4//#testresult/6f53a8caace3b8e8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639939633470,
+          "stop" : 1639939633471,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "5f74d27cf0a7e42b",
+        "reportUrl" : "https://reportenko.github.io/2//#testresult/5f74d27cf0a7e42b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639937543714,
+          "stop" : 1639937543716,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "c579f727e69e51c4",
+        "reportUrl" : "https://reportenko.github.io/1//#testresult/c579f727e69e51c4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639936276713,
+          "stop" : 1639936276714,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "c98c29c4c2e8c4d9",
+        "reportUrl" : "https://reportenko.github.io/1//#testresult/c98c29c4c2e8c4d9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639936236734,
+          "stop" : 1639936236736,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "3c5e6f725fc76d39",
+        "reportUrl" : "https://reportenko.github.io/38//#testresult/3c5e6f725fc76d39",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639935636296,
+          "stop" : 1639935636298,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "d599d617182f549a",
+        "reportUrl" : "https://reportenko.github.io/37//#testresult/d599d617182f549a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639935524022,
+          "stop" : 1639935524024,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "461f8d1f9466616f",
+        "reportUrl" : "https://reportenko.github.io/32//#testresult/461f8d1f9466616f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639935153898,
+          "stop" : 1639935153900,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "b4e671e8b27bc0",
+        "reportUrl" : "https://reportenko.github.io/31//#testresult/b4e671e8b27bc0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639935063997,
+          "stop" : 1639935063999,
+          "duration" : 2
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "d262ce6c1b8dc91e.json",
+  "parameterValues" : [ "chrome-96.0.4664.110" ]
+}
