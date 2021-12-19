@@ -1,0 +1,51 @@
+[ {
+  "uid" : "2b6190e6840480a2",
+  "name" : "should be able to login",
+  "time" : {
+    "start" : 1639940421425,
+    "stop" : 1639940421427,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "299eb1d2d43a5a95",
+  "name" : "should be able to logout",
+  "time" : {
+    "start" : 1639940421427,
+    "stop" : 1639940421428,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "26f70e02c1c60d5",
+  "name" : "should not be able to login with no password",
+  "time" : {
+    "start" : 1639940421428,
+    "stop" : 1639940421428,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fa300f5c26431f10",
+  "name" : "should not be able to login with incorrect password",
+  "time" : {
+    "start" : 1639940421428,
+    "stop" : 1639940421428,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "78f706edfc6ba1da",
+  "name" : "should be able to reset password",
+  "time" : {
+    "start" : 1639940421429,
+    "stop" : 1639940421429,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
