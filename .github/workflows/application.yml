@@ -30,14 +30,14 @@ jobs:
 
 
   deploy_to_qa:
-    needs: build
+    needs: unit_tests
     runs-on: ubuntu-latest
     steps:
       - name: Checkout the code
         uses: actions/checkout@v2
 
   integration_tests:
-    needs: build
+    needs: deploy_to_qa
     runs-on: ubuntu-latest
     steps:
       - name: Checkout the code
@@ -80,7 +80,7 @@ jobs:
           PUBLISH_DIR: allure-history
 
   prod_release:
-    needs: test
+    needs: integration_tests
     runs-on: ubuntu-latest
     steps:
       - name: Checkout the code
