@@ -1,0 +1,61 @@
+[ {
+  "uid" : "8e9a7405d6c72e14",
+  "name" : "should be able to logout",
+  "time" : {
+    "start" : 1639941038210,
+    "stop" : 1639941038210,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "66cb0b2b8048d264",
+  "name" : "should be able to login",
+  "time" : {
+    "start" : 1639941038208,
+    "stop" : 1639941038210,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "70167b7516be58dd",
+  "name" : "should not be able to login after account removal",
+  "time" : {
+    "start" : 1639941038211,
+    "stop" : 1639941038211,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "70d07c081a460eee",
+  "name" : "should not be able to login with incorrect password",
+  "time" : {
+    "start" : 1639941038210,
+    "stop" : 1639941038210,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cfedeb694b180e1a",
+  "name" : "should not be able to login with no password",
+  "time" : {
+    "start" : 1639941038210,
+    "stop" : 1639941038211,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1837eec58fd302aa",
+  "name" : "should be able to reset password",
+  "time" : {
+    "start" : 1639941038211,
+    "stop" : 1639941038211,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

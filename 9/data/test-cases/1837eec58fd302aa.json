@@ -1,0 +1,87 @@
+{
+  "uid" : "1837eec58fd302aa",
+  "name" : "should be able to reset password",
+  "fullName" : "Login.should be able to reset password",
+  "historyId" : "632543fb78e5a15f5018f661c4dbf86d",
+  "time" : {
+    "start" : 1639941038211,
+    "stop" : 1639941038211,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login"
+  }, {
+    "name" : "testClass",
+    "value" : "Login"
+  }, {
+    "name" : "testMethod",
+    "value" : "should be able to reset password"
+  }, {
+    "name" : "package",
+    "value" : "Login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-96.0.4664.110"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "cb1a93fde1ee2abd",
+        "reportUrl" : "https://reportenko.github.io/8//#testresult/cb1a93fde1ee2abd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639940696597,
+          "stop" : 1639940696597,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "78f706edfc6ba1da",
+        "reportUrl" : "https://reportenko.github.io/7//#testresult/78f706edfc6ba1da",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639940421429,
+          "stop" : 1639940421429,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "1837eec58fd302aa.json",
+  "parameterValues" : [ "chrome-96.0.4664.110" ]
+}
