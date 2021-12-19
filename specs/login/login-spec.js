@@ -22,4 +22,8 @@ describe('Login', () => {
     it('should not be able to login after account removal', () => {
         // Test code should be here 
     })
+
+    it('should not be able to login with incorrect username', () => {
+        // Test code should be here 
+    })
 })
