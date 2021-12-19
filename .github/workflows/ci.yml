@@ -11,8 +11,13 @@ on:
     branches: [ master ]
 
 jobs:
+  pull:
+    runs-on: ubuntu-latest
+
   build:
-    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+  test:
     runs-on: ubuntu-latest
 
     # Steps represent a sequence of tasks that will be executed as part of the job
@@ -56,11 +61,14 @@ jobs:
           PUBLISH_BRANCH: gh-pages
           PUBLISH_DIR: allure-history
 
-      - name: Post the link to the report 
-        uses: Sibz/github-status-action@v1
-        with: 
-            authToken: ${{secrets.GITHUB_TOKEN}}
-            context: 'Test report'
-            state: 'success'
-            sha: ${{ github.event.pull_request.head.sha }}
-            target_url: reportenko.github.io/github-allure-history/${{ github.run_number }}
+      # - name: Post the link to the report 
+      #   uses: Sibz/github-status-action@v1
+      #   with: 
+      #       authToken: ${{secrets.GITHUB_TOKEN}}
+      #       context: 'Test report'
+      #       state: 'success'
+      #       sha: ${{ github.event.pull_request.head.sha }}
+      #       target_url: reportenko.github.io/github-allure-history/${{ github.run_number }}
+
+  post_result:
+    runs-on: ubuntu-latest
